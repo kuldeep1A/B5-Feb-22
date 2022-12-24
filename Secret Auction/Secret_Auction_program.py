@@ -4,8 +4,9 @@ import os
 
 
 def clear():
+    # CLEAR THE SCREEN
     os.system('cls')
-
+ 
 
 def find_highest_bidders(bidders_record):
     highest_bid = 0
